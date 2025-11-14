@@ -1,0 +1,167 @@
+/* HEADER */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #1f2937;
+}
+
+
+/* LOGO */
+
+.logo img {
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+    display: block;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    background-color: #1f2937;
+    padding: 12px 20px;
+    color: white;
+}
+
+
+/* NAV LINKS */
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #00bcd4;
+}
+
+
+/* DROPDOWN */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-btn {
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 140px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    z-index: 10;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 10px 15px;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* SEARCH BAR */
+
+.search-box input {
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 848px;
+}
+
+
+/* HORIZONTAL SECTIONS */
+
+.horizontal-sections {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 10px;
+}
+
+.horizontal-sections section {
+    width: 500px;
+    height: 400px;
+    background: #f9f9f9;
+    padding: 15px;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: black;
+}
+
+
+/* SIMPLE FOOTER */
+
+.simple-footer {
+    background: #1b1b1b;
+    color: #e0e0e0;
+    text-align: center;
+    padding: 15px 10px;
+    font-family: Arial, sans-serif;
+}
+
+.simple-footer .footer-links {
+    margin-top: 5px;
+}
+
+.simple-footer a {
+    color: #e0e0e0;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.simple-footer a:hover {
+    color: #00e676;
+}
