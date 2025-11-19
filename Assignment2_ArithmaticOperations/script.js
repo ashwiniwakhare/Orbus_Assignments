@@ -7,14 +7,11 @@ function calculate(operation) {
 
     if (operation === "add") {
         result = a + b;
-    }
-    else if (operation === "minus") {
+    } else if (operation === "minus") {
         result = a - b;
-    }
-    else if (operation === "multiply") {
+    } else if (operation === "multiply") {
         result = a * b;
-    }
-    else if (operation === "divide") {
+    } else if (operation === "divide") {
         if (b === 0) {
             result = "Cannot divide by zero";
         } else {
