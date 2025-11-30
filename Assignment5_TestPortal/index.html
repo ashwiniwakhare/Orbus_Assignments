@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Test Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="screen1" class="screen">
+        <h1>Online Test</h1>
+        <ul>
+            <h3>Rules:</h3>
+            <li>15 Questions will appear</li>
+            <li>1 point for each correct answer</li>
+            <li>No negative marking</li>
+        </ul>
+        <button onclick="startTest()">Start Test</button>
+    </div>
+    <div id="screen2" class="screen hidden">
+        <h2 id="question-title"></h2>
+
+        <div id="options"></div>
+
+        <div class="buttons">
+            <button onclick="prevQuestion()">Back</button>
+            <button onclick="nextQuestion()">Next</button>
+            <button onclick="submitTest()">Submit</button>
+        </div>
+    </div>
+    <div id="screen3" class="screen hidden">
+        <h1>Your Score: <span id="score"></span>/15</h1>
+
+        <h2>Correct Answers</h2>
+        <div id="answers-list"></div>
+
+        <button onclick="location.reload()">Restart Test</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
